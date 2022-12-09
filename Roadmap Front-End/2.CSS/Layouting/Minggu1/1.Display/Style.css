@@ -1,0 +1,40 @@
+body {
+  font-family: arial;
+}
+
+.header {
+  background-color: aqua;
+}
+
+.navigasi {
+  background-color: yellow;
+}
+
+.navigasi li {
+  background-color: tomato;
+  display: inline-block;
+}
+
+.main {
+  background-color: lightcoral;
+  width: 600px;
+}
+
+.main h2 {
+  background-color: aqua;
+}
+
+.main span {
+  text-decoration: line-through;
+}
+
+.main2 {
+  background-color: chartreuse;
+}
+.copyright {
+  background-color: tomato;
+}
+
+.copyright span {
+  text-decoration: overline;
+}

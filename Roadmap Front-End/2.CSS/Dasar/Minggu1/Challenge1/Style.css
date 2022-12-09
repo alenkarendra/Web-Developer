@@ -1,0 +1,37 @@
+body {
+  font-family: Segoe UI;
+  background-image: url(Gambar/Hitam.jpg);
+  background-size: 110px;
+  background-repeat: repeat-x;
+  background-color: lightblue;
+}
+
+.judul {
+  font-size: 70px;
+  font-weight: bolder;
+}
+
+table {
+  font-size: 25px;
+  text-align: center;
+  color: beige;
+}
+
+h1 {
+  font-size: 150px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 100px;
+  text-align: center;
+}
+
+h4 {
+  font-size: 50px;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}

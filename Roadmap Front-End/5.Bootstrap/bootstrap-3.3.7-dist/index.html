@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en" id="home">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+  <title>Portofolio</title>
+
+  <!-- Bootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+  <!--[if lt IE 9]>
+      <script src="https://cdn.jsdelivr.net/npm/html5shiv@3.7.3/dist/html5shiv.min.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/respond.js@1.4.2/dest/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a href="#home" class="navbar-brand page-scroll">Ilham Syawal</a>
+      </div>
+
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="#about" class="page-scroll">About</a></li>
+          <li><a href="#portfolio" class="page-scroll">Portfolio</a></li>
+          <li><a href="#contact" class="page-scroll">Contact</a></li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Akhir Navbar -->
+
+  <!-- Jumbotron -->
+  <div class="jumbotron text-center">
+    <img src="./Gambar/1.jpg" class="img-circle">
+    <h1>Ilham Syawal Mustaqim</h1>
+    <p>Fresh Graduate | Web Developer</p>
+  </div>
+  <!-- Akhir Jumbotron -->
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2 class="text-center">About</h2>
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-5 col-sm-offset-1">
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima quasi expedita earum corrupti alias! Aut
+            voluptatem dolorum fuga odio nostrum perspiciatis, sit quis, saepe amet veniam dicta voluptate, aliquid
+            sint!</p>
+        </div>
+        <div class="col-sm-5">
+          <p>
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore deleniti facilis quia debitis tempore,
+            sint fugit porro voluptas veritatis praesentium molestiae quasi, nobis quaerat tempora iure laboriosam iste
+            corrupti aperiam!
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir About -->
+
+
+  <!-- Portfolio -->
+  <section class="portfolio" id="portfolio">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Portfolio</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/1.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/2.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/3.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/4.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/5.jpg">
+          </a>
+        </div>
+        <div class="col-sm-4">
+          <a href="" class="thumbnail">
+            <img src="gambar/Portfolio/6.jpg">
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+  <!-- Akhir Portfolio -->
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-12 text-center">
+          <h2>Contact</h2>
+          <hr>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-6 col-sm-offset-3">
+          <form>
+            <div class="form-group">
+              <label for="nama">Nama</label>
+              <input type="text" id="nama" class="form-control" placeholder="Masukan Nama">
+            </div>
+            <div class="form-group">
+              <label for="email">E-mail</label>
+              <input type="email" id="email" class="form-control" placeholder="Masukan E-mail">
+            </div>
+            <div class="form-group">
+              <label for="telp">No Telepon</label>
+              <input type="tel" id="telp" class="form-control" placeholder="Masukan No Telepon">
+            </div>
+            <select class="form-control">
+              <option>-- Pilih Kategori --</option>
+              <option>Web Design</option>
+              <option>Web Developer</option>
+            </select>
+            <div class="form-group">
+              <label for="pesan">Pesan</label>
+              <textarea class="form-control" rows="10" id="pesan" placeholder="Masukan Pesan"></textarea>
+            </div>
+            <button type="submit" class="btn-primary">Kirim Pesan</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Akhir Contact -->
+
+  <!-- Footer -->
+  <footer>
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12">
+          <p>&copy; copyright 2017 | build with <i class="glyphicon glyphicon-heart"></i> by <a href="#">Ilham Syawal
+              M.</a> </p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-sm-12">
+          <a href="#" class="btn btn-danger">
+            <i class="glyphicon glyphicon-play"></i>
+            Subscribe to Youtube</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- Akhir Footer -->
+
+
+
+
+
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/script.js"></script>
+</body>
+
+</html>

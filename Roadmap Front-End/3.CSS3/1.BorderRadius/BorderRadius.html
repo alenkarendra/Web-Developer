@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Border Radius</title>
+    <style>
+        .kotak {
+            height: 100px;
+            width: 100px;
+            margin-right: 10px;
+            float: left;
+        }
+
+        .satu {
+            background-color: violet;
+            border-radius: 10%;
+            text-align: center;
+            line-height: 100px;
+
+        }
+
+        .dua {
+            background-color: aqua;
+            border-top-left-radius: 40%;
+            border-bottom-right-radius: 40%;
+
+        }
+
+        .tiga {
+            background-color: brown;
+            border-top-right-radius: 40%;
+            border-bottom-left-radius: 40%;
+        }
+
+        .empat {
+            background-color: yellowgreen;
+            border-top-left-radius: 100%;
+            border-top-right-radius: 100%;
+        }
+
+        .lima {
+            background-color: tomato;
+            height: 50px;
+            border-radius: 100px 100px 0 0;
+        }
+
+        .enam {
+            background-color: thistle;
+            border-radius: 100%;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak satu">Hello World</div>
+    <div class="kotak dua"></div>
+    <div class="kotak tiga"></div>
+    <div class="kotak empat"></div>
+    <div class="kotak lima"></div>
+    <div class="kotak enam"></div>
+</body>
+
+</html>

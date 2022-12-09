@@ -1,0 +1,48 @@
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+.container {
+  width: 800px;
+  margin: auto;
+  border: 5px solid black;
+  padding: 5px;
+}
+.kiri,
+.tengah,
+.kanan {
+  /*border: 5px solid black;*/
+  /*box-sizing: border-box;*/
+}
+.kiri {
+  width: 150px;
+  height: 500px;
+  background-color: aqua;
+  float: left;
+}
+.tengah {
+  width: 500px;
+  height: 500px;
+  background-color: brown;
+  float: left;
+}
+.kanan {
+  width: 150px;
+  height: 500px;
+  background-color: violet;
+  float: left;
+}

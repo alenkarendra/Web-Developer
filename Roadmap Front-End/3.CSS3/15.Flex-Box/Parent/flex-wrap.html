@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Flex-Box</title>
+    <style>
+        .container {
+            width: 600px;
+            border: 5px solid #333;
+            margin: 30px auto;
+            padding: 5px;
+            box-sizing: border-box;
+            display: flex;
+        }
+
+        .pertama {
+            flex-wrap: nowrap;
+        }
+
+        .kedua {
+            flex-wrap: wrap;
+        }
+
+        .ketiga {
+            flex-wrap: wrap-reverse;
+        }
+
+        .container div {
+            width: 100px;
+            height: 100px;
+            background-color: skyblue;
+            float: left;
+            margin: 2px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container pertama">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">4</div>
+        <div class="lime">5</div>
+        <div class="enam">6</div>
+        <div class="tujuh">7</div>
+    </div>
+
+    <div class="container kedua">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">4</div>
+        <div class="lime">5</div>
+        <div class="enam">6</div>
+        <div class="tujuh">7</div>
+    </div>
+
+    <div class="container ketiga">
+        <div class="satu">1</div>
+        <div class="dua">2</div>
+        <div class="tiga">3</div>
+        <div class="empat">4</div>
+        <div class="lime">5</div>
+        <div class="enam">6</div>
+        <div class="tujuh">7</div>
+    </div>
+</body>
+
+</html>

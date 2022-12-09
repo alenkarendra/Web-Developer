@@ -1,0 +1,14 @@
+body {
+  font-family: arial;
+  color: chartreuse;
+  text-decoration: line-through;
+  background-color: blue;
+  background-image: url(../../Minggu1/Challenge2/Gambar/Hitam.jpg);
+  background-size: 50px;
+  background-repeat: repeat-x;
+}
+
+a {
+  color: inherit;
+  text-decoration: inherit;
+}

@@ -1,0 +1,280 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+  *zoom: 1;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#navbar {
+  background-color: #be3144;
+  position: fixed;
+  z-index: 10;
+  height: 78px;
+  width: 100%;
+}
+
+navbar ul {
+  margin-left: 70%;
+}
+
+navbar ul li {
+  display: inline-block;
+  height: 78px;
+  transition: 0.6s;
+}
+
+navbar ul li:hover {
+  background-color: #45567d;
+}
+
+navbar ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #f0f0f0;
+  margin: 20px;
+  line-height: 78px;
+}
+
+main {
+  position: relative;
+  top: 78px;
+}
+
+#about {
+  background-image: linear-gradient(62deg, #3a3d40 0%, #181719 100%);
+  height: 100vh;
+}
+
+#about h1,
+h4 {
+  text-align: center;
+}
+
+#about h1 {
+  font-size: 65px;
+  color: #f0f0f0;
+  padding-top: 30vh;
+}
+
+#about h4 {
+  color: #be3144;
+  font-weight: lighter;
+  font-style: oblique;
+  font-size: 30px;
+  padding-top: 5px;
+}
+
+#projects {
+  background-color: #45567d;
+  display: flex;
+  flex-direction: column;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-gap: 30px;
+}
+
+#projects h2 {
+  color: #f0f0f0;
+  text-decoration: underline;
+  text-align: center;
+  align-self: center;
+  font-size: 45px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+}
+
+.project {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 10px;
+  display: block;
+  margin-top: 40px;
+  transition: 0.8s;
+}
+
+.project:hover {
+  box-shadow: -7px 7px 0 0 black;
+  transform: translateX(10px) translateY(-10px);
+}
+
+a {
+  text-decoration: none;
+}
+
+a span {
+  color: #303841;
+}
+
+a:hover span {
+  transition: 0.8s;
+  color: tomato;
+}
+
+.hero {
+  height: 410px;
+  border-radius: 10px 10px 0 0;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.judul {
+  background-color: #303841;
+  height: 60px;
+  border-radius: 0 0 10px 10px;
+  color: #f0f0f0;
+  font-size: 20px;
+  text-align: center;
+  line-height: 60px;
+}
+
+.satu .hero {
+  background-image: url(./Gambar/Web\ Kucing.jpg);
+}
+
+.dua .hero {
+  background-image: url(./Gambar/Halaman\ Utama.jpg);
+}
+
+.tiga .hero {
+  background-image: url(./Gambar/Tabel\ Kucing.jpg);
+}
+
+.empat .hero {
+  background-image: url(./Gambar/My\ Website.jpg);
+}
+
+.lima .hero {
+  background-image: url(./Gambar/Galeri\ Foto.jpg);
+}
+
+.enam .hero {
+  background-image: url(./Gambar/Survey\ Form.jpg);
+}
+
+.tujuh .hero {
+  background-image: url(./Gambar/Tribute\ Page.jpg);
+}
+
+.delapan .hero {
+  background-image: url(./Gambar/Landing\ Page.jpg);
+}
+
+.sembilan .hero {
+  background-image: url(./Gambar/Techincal\ Documentation\ Page.jpg);
+}
+
+.kembali {
+  align-self: center;
+  margin: 20px 0;
+}
+
+.kembali a {
+  height: 50px;
+  width: 150px;
+  display: inline-block;
+  background-color: #303841;
+  border-radius: 10px;
+  text-align: center;
+  font-size: 20px;
+  color: #f0f0f0;
+  line-height: 50px;
+  transition: 0.8s;
+}
+
+.kembali a:hover {
+  box-shadow: -7px 7px 0 0 black;
+  transform: translateX(10px) translateY(-10px);
+}
+
+#contact {
+  background-color: #303841;
+  color: #f0f0f0;
+  text-align: center;
+  padding-bottom: 130px;
+}
+
+#contact h1 {
+  font-size: 65px;
+  padding-top: 30vh;
+  margin-bottom: 10px;
+}
+
+#contact h5 {
+  font-size: 20px;
+  font-weight: lighter;
+  font-style: oblique;
+}
+
+#contact ul {
+  text-align: left;
+  display: flex;
+  justify-content: center;
+  margin-left: 85px;
+}
+
+#contact ul li {
+  display: inline-block;
+  height: 78px;
+  width: auto;
+  transition: 0.6s;
+}
+
+#contact ul li:hover {
+  transform: translateY(40px);
+}
+
+#contact ul li a {
+  text-decoration: none;
+  font-size: 25px;
+  color: #f0f0f0;
+  margin: 20px 80px 20px 0;
+  line-height: 78px;
+}
+
+footer {
+  background-color: #303841;
+  margin-top: 78px;
+  height: 80px;
+  border-top: 5px solid #be3144;
+  padding-top: 20px;
+  line-height: 70px;
+  color: #f0f0f0;
+  font-size: 20px;
+  font-weight: lighter;
+}
+
+footer .satu {
+  float: left;
+  margin-left: 100px;
+}
+
+footer .dua {
+  float: right;
+  margin-right: 170px;
+}

@@ -1,0 +1,172 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgba(218, 218, 218);
+}
+
+/*Header*/
+
+#nav-bar {
+  background-color: rgb(218, 218, 218);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 60px;
+  z-index: 10;
+}
+
+#header-img {
+  margin-top: 15px;
+  margin-left: 50px;
+}
+
+#nav-bar ul {
+  display: inline;
+  margin-left: 600px;
+  position: relative;
+  top: -10px;
+  right: 50px;
+}
+
+#nav-bar ul li {
+  display: inline-block;
+  margin-left: 85px;
+}
+
+#nav-bar ul li a {
+  font-size: 20px;
+  text-decoration: none;
+  color: black;
+}
+
+/*Main*/
+
+main {
+  width: 1100px;
+  margin: 60px auto 0;
+}
+
+form {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+h1 {
+  font-size: 25px;
+}
+
+#form h1 {
+  padding: 20px 0;
+}
+
+#email {
+  width: 240px;
+  height: 20px;
+  display: block;
+  margin: 0 auto 20px;
+}
+
+#submit {
+  width: 150px;
+  height: 25px;
+  font-weight: 900;
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  margin: 0 90px 0 80px;
+}
+
+.isi {
+  display: inline-block;
+  margin-bottom: 50px;
+  width: 800px;
+}
+
+.satu {
+  background-image: url(./Img/star-removebg-preview.png);
+}
+
+.dua {
+  background-image: url(./Img/rocket-lunch__1_-removebg-preview.png);
+}
+
+.tiga {
+  background-image: url(./Img/shield-check-removebg-preview.png);
+}
+
+#how-it-works {
+  width: 1100px;
+  margin-bottom: 50px;
+}
+
+video {
+  margin-left: 220px;
+}
+
+.kotak {
+  width: 300px;
+  height: 250px;
+  border: 1px solid black;
+  display: inline-block;
+  margin-left: 40px;
+}
+
+.tipe {
+  background-color: silver;
+  text-align: center;
+  padding: 13px 0;
+  font-weight: 600;
+}
+
+h3,
+p {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+#Select {
+  text-align: center;
+  margin: 10px 0;
+  width: 80px;
+  height: 30px;
+  background-color: yellow;
+  border: 1px solid yellow;
+}
+
+/*Footer*/
+
+footer {
+  background-color: silver;
+  height: 80px;
+  margin-top: 30px;
+  font-size: 16px;
+  text-align: center;
+}
+
+footer ul li {
+  display: inline-block;
+  margin: 15px;
+}
+
+footer ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+@media (max-height: 200px) {
+  h1 {
+    text-align: center;
+  }
+}

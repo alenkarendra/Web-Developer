@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gerak</title>
+    <style>
+        .kotak {
+            width: 100px;
+            height: 100px;
+        }
+
+        .satu {
+            background-color: chartreuse;
+            position: relative;
+            animation: satu 4s ease infinite alternate;
+        }
+
+        @keyframes satu {
+            0% {
+                top: 0;
+                left: 0;
+            }
+
+            20% {
+                top: 200px;
+                left: 0;
+            }
+
+            60% {
+                top: 200px;
+                left: 200px;
+            }
+
+            80% {
+                top: 300px;
+                left: 200px;
+            }
+
+            100% {
+                top: 300px;
+                left: 300px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak satu"></div>
+</body>
+
+</html>

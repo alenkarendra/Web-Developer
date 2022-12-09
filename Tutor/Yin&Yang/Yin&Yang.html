@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Yin&Yang</title>
+    <style>
+        body {
+            background-color: antiquewhite;
+        }
+
+        .lambang {
+            position: absolute;
+            top: 30%;
+            left: 43%;
+        }
+
+        .hitam {
+            height: 200px;
+            width: 200px;
+            background-color: black;
+            border-radius: 50%;
+            border: 2px solid black;
+            position: relative;
+            animation: muter 3s  infinite;
+        }
+
+        .putih {
+            background-color: white;
+            width: 200px;
+            height: 100px;
+            border-radius: 100px 100px 0 0;
+            position: relative;
+        }
+
+        .isi {
+            width: 100px;
+            height: 100px;
+        }
+
+        .satu {
+            background-color: white;
+            position: absolute;
+            top: 50px;
+            border-radius: 50%;
+        }
+
+        .dua {
+            background-color: black;
+            position: absolute;
+            top: 50px;
+            left: 100px;
+            border-radius: 50%;
+        }
+
+        .bulet {
+            width: 25px;
+            height: 25px;
+        }
+
+        .tiga {
+            position: absolute;
+            background-color: black;
+            border-radius: 100%;
+            top: 57px;
+            left: 37px;
+        }
+
+        .empat {
+            position: absolute;
+            background-color: white;
+            border-radius: 100%;
+            top: 27px;
+            left: 37px;
+        }
+
+        @keyframes muter {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(-360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="lambang">
+        <div class="hitam">
+            <div class="putih">
+                <div class="isi satu">
+                    <div class="bulet tiga"></div>
+                </div>
+                <div class="isi dua">
+                    <div class="bulet empat"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

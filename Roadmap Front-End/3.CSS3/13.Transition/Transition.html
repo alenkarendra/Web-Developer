@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Transition</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 900px;
+            margin: 10px auto;
+            border: 5px solid black;
+        }
+
+
+
+        .satu {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            transition: 2s;
+        }
+
+        .container:hover .satu {
+            transform: rotate(350deg);
+            margin-left: 800px;
+            background-color: blueviolet;
+        }
+
+        .dua {
+            height: 100px;
+            width: 100px;
+            background-color: tomato;
+            transition: margin-left 2s;
+        }
+
+        .container:hover .dua {
+            transform: rotate(350deg);
+            margin-left: 800px;
+            background-color: black;
+        }
+
+
+
+        .kotak {
+            height: 100px;
+            width: 100px;
+            background-color: aqua;
+            margin: 10px 0;
+            text-align: center;
+            line-height: 100px;
+        }
+
+        .container:hover .kotak {
+            transform: rotate(360deg);
+            margin-left: 800px;
+            background-color: blueviolet;
+        }
+
+        .one {
+            transition: all 2s ease;
+        }
+
+        .two {
+            transition: all 2s ease-in;
+        }
+
+        .three {
+            transition: all 2s ease-out;
+        }
+
+        .four {
+            transition: all 2s ease-in-out;
+        }
+
+        .five {
+            transition: all 2s linear;
+        }
+
+        .six {
+            transition: all 2s cubic-bezier(0.24, -0.35, 0.78, 1.40);
+        }
+
+
+
+        .delay {
+            transition: margin-left 3s, transform 3s 2s, background-color 2s 3s;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="satu"></div>
+    </div>
+    <div class="container">
+        <div class="dua"></div>
+    </div>
+
+    <div class="container">
+        <div class="kotak one">ease</div>
+        <div class="kotak two">ease-in</div>
+        <div class="kotak three">ease-out</div>
+        <div class="kotak four">ease-in-out</div>
+        <div class="kotak five">linear</div>
+        <div class="kotak six">cubic-bezier</div>
+    </div>
+
+    <div class="container">
+        <div class="kotak delay"></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Gallery Responsive Grid</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, Helvetica, sans-serif;
+            transition: 1s;
+        }
+
+        body {
+            background-color: #ddd;
+            text-align: center;
+        }
+
+        h2 {
+            margin: 20px;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            border: 10px solid white;
+            list-style: none;
+            box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.5);
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+            grid-gap: 10px;
+        }
+
+        img {
+            display: block;
+            width: 100%;
+        }
+
+        img:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+    <h2>Galeri Responsive Grid</h2>
+    <ul class="container">
+        <li><img src="gambar/1.jpeg" alt=""></li>
+        <li><img src="gambar/2.jpg" alt=""></li>
+        <li><img src="gambar/3.jpg" alt=""></li>
+        <li><img src="gambar/4.jpg" alt=""></li>
+        <li><img src="gambar/5.jpg" alt=""></li>
+        <li><img src="gambar/6.jpg" alt=""></li>
+        <li><img src="gambar/7.jpg" alt=""></li>
+        <li><img src="gambar/8.jpg" alt=""></li>
+        <li><img src="gambar/9.jpg" alt=""></li>
+        <li><img src="gambar/10.jpg" alt=""></li>
+    </ul>
+</body>
+
+</html>

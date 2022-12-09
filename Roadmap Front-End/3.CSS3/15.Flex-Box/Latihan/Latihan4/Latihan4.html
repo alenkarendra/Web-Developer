@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Latihan 4</title>
+    <style>
+        body {
+            background-color: #ddd;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .container {
+            width: 600px;
+            height: 600px;
+            border: 1px solid black;
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            margin: auto;
+        }
+
+        .kotak {
+            width: 100px;
+            height: 100px;
+            border: 1px solid black;
+            background-color: violet;
+            justify-content: center;
+            margin: auto;
+            display: flex;
+            transition: 0.8s;
+        }
+
+        .kotak:hover {
+            transform: translateX(10px) translateY(-10px);
+            box-shadow: -10px 10px 0 0 black;
+        }
+
+        p {
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Kotak isi</h1>
+    <div class="container">
+        <div class="kotak">
+            <p>Hello World</p>
+        </div>
+    </div>
+</body>
+
+</html>

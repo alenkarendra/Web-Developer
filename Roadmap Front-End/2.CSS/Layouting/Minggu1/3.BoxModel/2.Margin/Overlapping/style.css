@@ -1,0 +1,29 @@
+/*Kalo atas bawah diambil yg paling besar marginnya*/
+.satu {
+  width: 200px;
+  height: 200px;
+  background-color: aqua;
+  margin-bottom: 150px;
+}
+.dua {
+  width: 100px;
+  height: 100px;
+  background-color: tomato;
+  margin-top: 100px;
+}
+
+/*Kalo kiri kanan di total jumlah marginnya*/
+.tiga {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: chartreuse;
+  margin-right: 40px;
+}
+.empat {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-color: blueviolet;
+  margin-left: 60px;
+}

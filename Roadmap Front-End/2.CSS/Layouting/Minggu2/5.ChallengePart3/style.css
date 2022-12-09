@@ -1,0 +1,335 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/**************Untuk Clear Float***************/
+.cf:before,
+.cf:after {
+  content: " "; /* 1 */
+  display: table; /* 2 */
+}
+
+.cf:after {
+  clear: both;
+}
+
+.cf {
+  *zoom: 1;
+}
+
+/******************************************************************Style Website************************************************************/
+
+body {
+  font-family: Arial;
+  background-image: url(./Gambar/Pattern.png);
+}
+
+/**************top-bar***************/
+.topbar {
+  position: fixed;
+  background-color: white;
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 60px;
+  z-index: 999;
+}
+
+.portofolio {
+  font-size: 40px;
+  color: black;
+  font-weight: bolder;
+  display: inline-block;
+  position: absolute;
+  left: 200px;
+  top: 10px;
+}
+
+.search {
+  margin-top: 15px;
+  margin-left: 610px;
+  margin-right: 50px;
+  font-size: 21px;
+  position: absolute;
+}
+
+.tombol {
+  margin-left: 1035px;
+  margin-top: 10px;
+}
+
+.home {
+  width: 40px;
+  height: 40px;
+  margin-right: -20px;
+  display: inline-block;
+  background-image: url(./Gambar/home.png);
+}
+
+.money {
+  width: 40px;
+  height: 40px;
+  margin-right: -20px;
+  display: inline-block;
+  background-image: url(./Gambar/dollar.png);
+}
+
+.book {
+  width: 40px;
+  height: 40px;
+  margin-right: -20px;
+  display: inline-block;
+  background-image: url(./Gambar/book.png);
+}
+
+.world {
+  width: 40px;
+  height: 40px;
+  margin-right: -20px;
+  display: inline-block;
+  background-image: url(./Gambar/globe.png);
+}
+
+.profil {
+  width: 40px;
+  height: 40px;
+  margin-right: -20px;
+  display: inline-block;
+  background-image: url(./Gambar/user.png);
+}
+
+/**************Container***************/
+.container {
+  margin: auto;
+  width: 960px;
+  background-color: white;
+  margin-top: 95px;
+  position: relative;
+}
+
+/************twitter*************/
+.twitter {
+  height: 200px;
+  width: 200px;
+  background-image: url(./Gambar/twitter.png);
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: absolute;
+  top: -23px;
+  right: -27px;
+}
+/************Header*************/
+header {
+  padding: 20px;
+}
+header h1 {
+  font-size: 80px;
+  font-weight: bold;
+  margin-bottom: 18px;
+}
+ul li {
+  display: inline-block;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+a {
+  font-size: 21px;
+  text-decoration: none;
+  color: tomato;
+}
+.website li a:hover {
+  background-color: lightblue;
+  color: white;
+}
+
+/**************hero***************/
+.hero {
+  height: 450px;
+  background-image: url(./Gambar/Hero.gif);
+  background-size: cover;
+  background-position: 0 -50px;
+  border-top: 5px solid tomato;
+  border-bottom: 5px solid tomato;
+}
+
+/**************Satu****************/
+.satu {
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  float: left;
+}
+.satu h2 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+.satu h6 {
+  font-size: 18px;
+  padding-bottom: 20px;
+}
+.satu p {
+  font-size: 18px;
+  padding-bottom: 20px;
+  text-align: justify;
+  text-indent: 4%;
+  word-spacing: 4px;
+}
+
+/***************Dua*****************/
+.dua {
+  width: 300px;
+  padding: 20px;
+  float: right;
+  color: rgb(130, 126, 126);
+}
+.dua h2 {
+  font-size: 20px;
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.dua img {
+  width: 90px;
+  height: 100px;
+  float: left;
+  margin-right: 18px;
+}
+.dua p {
+  font-size: 14px;
+  text-align: justify;
+}
+
+/**************footer***************/
+footer {
+  background-color: black;
+  background-size: 30px;
+  color: white;
+  padding: 15px;
+  text-align: center;
+  font-size: 18px;
+}

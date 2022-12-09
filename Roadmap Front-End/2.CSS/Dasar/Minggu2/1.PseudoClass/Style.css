@@ -1,0 +1,50 @@
+.hello:link {
+  color: orange;
+}
+
+.hello:hover {
+  color: green;
+  font-family: arial;
+  font-size: 100px;
+}
+
+.hello:active {
+  text-decoration: line-through;
+}
+
+.hello:visited {
+  color:rgb(251, 113, 0);
+}
+
+li:first-child a {
+  /*anak pertama*/
+  color: green;
+}
+
+li:last-child a {
+  /*anak terakhir*/
+  color: yellow;
+}
+
+li:nth-child(2) a {
+  /*untuk anak ke 2*/
+  color: violet;
+}
+
+li:nth-child(3n) a {
+  /*Dimulai dari kelipatan 3*/
+  color: turquoise;
+}
+
+li:nth-child(4n-3) a {
+  /*Dimulai dari 4x1-3*/
+  color: rgb(247, 2, 116);
+}
+
+p:last-of-type {
+  color: violet;
+}
+
+p:first-of-type {
+  text-decoration: line-through;
+}

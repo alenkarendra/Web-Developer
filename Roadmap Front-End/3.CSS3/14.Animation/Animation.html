@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Animation</title>
+    <style>
+        .kotak {
+            width: 100px;
+            height: 100px;
+            margin: 50px auto;
+        }
+
+        .satu {
+            background-color: tomato;
+        }
+
+        .satu:hover {
+            animation: animasiKotak 2s ease;
+        }
+
+        @keyframes animasiKotak {
+            from {
+                width: 100px;
+            }
+
+            to {
+                width: 500px;
+            }
+        }
+
+        .dua {
+            background-color: aqua;
+            animation: kotakdua 3s ease infinite alternate;
+        }
+
+        @keyframes kotakdua {
+            0% {
+                width: 100px;
+            }
+
+            50% {
+                width: 100px;
+                height: 500px;
+            }
+
+            100% {
+                width: 700px;
+                height: 800px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak satu"></div>
+    <div class="kotak dua"></div>
+</body>
+
+</html>

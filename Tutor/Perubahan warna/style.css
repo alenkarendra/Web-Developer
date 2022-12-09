@@ -1,0 +1,72 @@
+body {
+  background-color: lightblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  text-align: center;
+  color: red;
+  animation: 2s animasi ease infinite alternate;
+  transition: 1s;
+}
+
+h1:hover {
+  text-shadow: -5px 5px black;
+  transform: translateX(10px) translateY(-10px);
+}
+
+.kotak {
+  height: 200px;
+  width: 200px;
+  border: 5px solid black;
+  margin: 100px 260px;
+  text-align: center;
+  line-height: 200px;
+  font-size: 50px;
+  font-weight: 750;
+  border-radius: 10px;
+  transition: 1s;
+  display: inline-block;
+}
+
+/*Kotak ilham*/
+
+.nama {
+  color: blue;
+  background-color: red;
+  animation: 5s animasi ease infinite alternate;
+}
+
+.nama:hover {
+  box-shadow: -5px 5px 0 0 black;
+  transform: translateX(10px) translateY(-10px);
+}
+
+/*Kotak syawal*/
+
+.kelas {
+  color: green;
+  background: linear-gradient(
+    to right,
+    rgba(200, 107, 142, 1),
+    rgba(218, 105, 250, 1),
+    rgba(110, 125, 253, 1)
+  );
+  animation: 2s animasi ease infinite alternate;
+}
+
+.kelas:hover {
+  box-shadow: -5px 5px 0 0 black;
+  transform: translateX(10px) translateY(-10px);
+}
+
+@keyframes animasi {
+  0% {
+    filter: hue-rotate(0deg);
+  }
+
+  100% {
+    filter: hue-rotate(360deg);
+  }
+}

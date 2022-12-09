@@ -1,0 +1,19 @@
+div {
+  width: 600px;
+  margin: 10px auto;
+  /* box-sizing: border-box; */ /*Opsional biar langsung ukurannya 600px*/
+}
+
+.dua {
+  width: 570px;
+  background-color: aqua;
+  padding: 10px;
+  border: 5px solid black;
+}
+
+.tiga {
+  width: 520px;
+  background-color: sienna;
+  padding: 30px;
+  border: 10px dashed red;
+}

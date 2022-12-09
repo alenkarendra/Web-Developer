@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Transform</title>
+    <style>
+        * {
+            transition: 1s;
+        }
+
+        .kotak {
+            width: 200px;
+            height: 200px;
+            background-color: lightblue;
+            margin: 50px auto 50px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+        .satu:hover {
+            background-color: yellowgreen;
+            transform: scale(2);
+        }
+
+        .dua:hover {
+            background-color: blue;
+            transform: scaleX(2);
+        }
+
+        .tiga:hover {
+            background-color: yellow;
+            transform: scaleY(2);
+        }
+
+        .empat:hover {
+            background-color: cadetblue;
+            transform: rotate(160deg);
+        }
+
+        .lima:hover {
+            background-color: blueviolet;
+            transform: rotateX(160deg);
+        }
+
+        .enam:hover {
+            background-color: brown;
+            transform: rotateY(160deg);
+        }
+
+        .tujuh:hover {
+            background-color: burlywood;
+            transform: skew(40deg);
+        }
+
+        /*skew=skewX*/
+
+        .delapan:hover {
+            background-color: violet;
+            transform: skewY(40deg);
+        }
+
+        .sembilan:hover {
+            background-color: turquoise;
+            transform: translate(50px);
+        }
+
+        /*translate=translateX*/
+
+        .sepuluh:hover {
+            background-color: steelblue;
+            transform: translateY(50px);
+        }
+
+        .sebelas:hover {
+            background-color: thistle;
+            transform: scaleX(3) scaleY(5);
+        }
+
+        .duabelas:hover {
+            background-color: lightcoral;
+            transform: scale(2) rotate(300deg) skew(30deg) translate(50px);
+        }
+
+        p:hover {
+            transform: scale(2) rotate(300deg);
+        }
+
+        p {
+            font-size: 20px;
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="kotak satu">scale</div>
+    <div class="kotak dua">scale x</div>
+    <div class="kotak tiga">scale y</div>
+    <div class="kotak empat">rotate</div>
+    <div class="kotak lima">rotate x</div>
+    <div class="kotak enam">rotate y</div>
+    <div class="kotak tujuh">skew</div>
+    <div class="kotak delapan">skew y</div>
+    <div class="kotak sembilan">translate</div>
+    <div class="kotak sepuluh">translateY</div>
+    <div class="kotak sebelas"></div>
+    <div class="kotak duabelas"></div>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vitae accusamus veritatis modi eveniet ducimus, harum
+        itaque ea, dolore molestias aspernatur dolorum deserunt quia porro voluptatum fuga. Maxime perspiciatis eos
+        quis? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto doloribus laudantium illo officia
+        consequatur. Dolor ullam reiciendis laboriosam cumque maiores, consequuntur aperiam facere numquam aliquid eaque
+        qui iure earum beatae?
+    </p>
+</body>
+
+</html>

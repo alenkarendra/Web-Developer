@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Absolute</title>
+    <style>
+        div {
+            width: 200px;
+            height: 200px;
+            margin: auto;
+        }
+
+        .container {
+            width: 600px;
+            height: 650px;
+            border: 10px solid black;
+            position: relative;
+        }
+
+        .satu {
+            background-color: aqua;
+        }
+
+        .dua {
+            background-color: brown;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .tiga {
+            background-color: violet;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="satu"></div>
+        <div class="dua"></div>
+        <div class="tiga"></div>
+    </div>
+</body>
+
+</html>

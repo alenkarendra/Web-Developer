@@ -1,0 +1,94 @@
+/*------------------Body---------------------*/
+body {
+  background-color: lightblue;
+  font-family: arial;
+  text-align: justify;
+}
+
+/*------------------Judul---------------------*/
+#Judul {
+  text-align: center;
+  font-size: 50px;
+  background-color: tomato;
+  font-variant: small-caps;
+}
+
+/*------------------Tabel---------------------*/
+table {
+  text-align: center;
+}
+
+:link {
+  color: black;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: 550;
+}
+
+:visited {
+  color: brown;
+}
+
+/*------------------Ringkasan---------------------*/
+h1.Ringkasan {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+p.Ringkasan {
+  text-indent: 50px;
+}
+
+table.Ringkasan {
+  text-align: center;
+}
+
+/*------------------Deskripsi---------------------*/
+h3.Deskripsi {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+p.Deskripsi {
+  text-indent: 50px;
+}
+
+/*------------------Jenis-Jenis---------------------*/
+h3.Jenis-Jenis {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+dl dt {
+  font-variant: small-caps;
+}
+
+p.Jenis-Jenis {
+  font-style: italic;
+  font-weight: bold;
+}
+
+/*------------------Macam Warna---------------------*/
+h3.MacamWarna {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+ol li {
+  font-weight: bold;
+}
+
+dd {
+  text-indent: 35px;
+}
+
+/*------------------Gambar---------------------*/
+h3.Gambar {
+  font-size: 40px;
+  font-variant: small-caps;
+}
+
+/*------------------Link---------------------*/
+h3.Link {
+  text-align: center;
+}

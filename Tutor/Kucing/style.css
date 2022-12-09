@@ -1,0 +1,115 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #ddd;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 1000px;
+  line-height: 1.65;
+}
+
+h1 {
+  text-align: center;
+  font-size: 40px;
+}
+
+.container {
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.kotak {
+  width: 25%;
+  border: 1px solid #aaa;
+  border-radius: 10px;
+  background-color: #eee;
+  overflow: hidden;
+  margin: 10px;
+  transition: 0.5s;
+  text-align: center;
+}
+
+.kotak:hover {
+  box-shadow: 0 0 0 2px black;
+  transform: scale(1.09);
+}
+
+.kotak .header {
+  height: 200px;
+  background-color: #666;
+  line-height: 200px;
+  color: white;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+.satu .header {
+  background-image: url(./Kucing/Bengal.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.dua .header {
+  background-image: url(./Kucing/British\ Shorthair.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.tiga .header {
+  background-image: url(./Kucing/Maine\ Coon.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.empat .header {
+  background-image: url(./Kucing/munchkin.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.lima .header {
+  background-image: url(./Kucing/Norwegian\ Forest.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.enam .header {
+  background-image: url(./Kucing/Persia.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.tujuh .header {
+  background-image: url(./Kucing/Ragdoll.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.delapan .header {
+  background-image: url(./Kucing/Scottish.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.sembilan .header {
+  background-image: url(./Kucing/Siamese\ cat.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+.sepuluh .header {
+  background-image: url(./Kucing/Sphynx.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.content {
+  padding: 10px;
+}

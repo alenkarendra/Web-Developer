@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Radial Gradient</title>
+    <style>
+        div {
+            width: 600px;
+            height: 300px;
+            margin: 50px auto;
+        }
+
+        .satu {
+            background: radial-gradient(red, blue);
+        }
+
+        .dua {
+            background: radial-gradient(red, green, blue);
+        }
+
+        .tiga {
+            background: radial-gradient(red 10%, green 50%, blue 90%);
+        }
+
+        .empat {
+            background: radial-gradient(circle, red, green, blue);
+        }
+
+        .lima {
+            background: radial-gradient(circle farthest-corner, red, blue);
+        }
+
+        .enam {
+            background: radial-gradient(circle closest-side, red, blue);
+        }
+
+        .tujuh {
+            background: radial-gradient(circle farthest-corner at top left, red, blue);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="satu"></div>
+    <div class="dua"></div>
+    <div class="tiga"></div>
+    <div class="empat"></div>
+    <div class="lima"></div>
+    <div class="enam"></div>
+    <div class="tujuh"></div>
+
+</body>
+
+</html>

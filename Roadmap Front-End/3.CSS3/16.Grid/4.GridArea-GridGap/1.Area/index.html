@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Area</title>
+    <style>
+        html,
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ddd;
+        }
+
+        .container {
+            width: 80%;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-areas: "header header header" "sidebar sidebar sidebar" "content content content" "footer footer footer";
+        }
+
+        .kotak {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 100px;
+            box-sizing: border-box;
+        }
+
+        .header {
+            background-color: aquamarine;
+            grid-area: header;
+        }
+
+        .sidebar {
+            background-color: red;
+            grid-area: sidebar;
+        }
+
+        .content {
+            background-color: yellow;
+            grid-area: content;
+        }
+
+        .footer {
+            background-color: grey;
+            grid-area: footer;
+        }
+
+        @media screen and (min-width : 700px) {
+            .container {
+                grid-template-areas: "header header header" "sidebar content content" "sidebar content content" "footer footer footer";
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="kotak header">header</div>
+        <div class="kotak sidebar">sidebar</div>
+        <div class="kotak content">content</div>
+        <div class="kotak footer">footer</div>
+    </div>
+</body>
+
+</html>

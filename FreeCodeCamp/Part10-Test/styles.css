@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*Utama*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/*Navigasi*/
+
+#navbar {
+  position: fixed;
+  width: 340px;
+  border-right: 5px solid rgba(0, 0, 0, 0.3);
+  box-sizing: border-box;
+  z-index: 10;
+}
+
+#navbar header {
+  font-size: 33px;
+  padding: 18px 25px 27px;
+}
+
+#navbar ul {
+  height: 630px;
+  overflow-y: scroll;
+}
+
+#navbar li {
+  border-top: 1px solid black;
+  font-size: 18px;
+  padding: 15px 20px;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: rgba(0, 0, 0, 0.7);
+  display: block;
+}
+
+.nav-link:hover {
+  color: black;
+}
+
+/*Main*/
+
+#main-doc {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 35px 35px 30px 370px;
+  color: rgba(0, 0, 0, 0.7);
+}
+
+#main-doc header {
+  font-size: 33px;
+  margin: 10px 0;
+  color: black;
+}
+
+.main-section {
+  transition: 0.8s ease;
+}
+
+#main-doc p {
+  margin: 20px 0 20px 20px;
+  font-size: 17px;
+}
+
+#main-doc li {
+  margin: 20px 0 20px 80px;
+}
+
+#main-doc .dalem li {
+  margin: 20px 0 20px 140px;
+}
+
+#main-doc code {
+  background-color: rgba(0, 0, 0, 0.03);
+  margin: 20px 0 20px 40px;
+  padding: 25px;
+  display: block;
+  width: 91%;
+  border-radius: 5px;
+}
+
+@media (max-width: 815px) {
+  #navbar {
+    position: absolute;
+    top: 0;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    max-height: 275px;
+    z-index: 10;
+    border: none;
+  }
+
+  #navbar header {
+    text-align: center;
+  }
+
+  #navbar ul {
+    height: 207px;
+    border: 3px solid;
+  }
+
+  #navbar li {
+    border-bottom: 1px solid black;
+    border-top: none;
+  }
+
+  #main-doc {
+    position: relative;
+    margin-top: 330px;
+    margin-left: 30px;
+  }
+
+  #main-doc code {
+    width: 85%;
+  }
+}

@@ -1,0 +1,8 @@
+body {
+  background-color: lightblue;
+  background-image: url(gambar/13.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+
+  /* background: "lightblue url(Gambar/13.jpg) center center no-repeat;" */ /* Cara cepat penulisannya */
+}
