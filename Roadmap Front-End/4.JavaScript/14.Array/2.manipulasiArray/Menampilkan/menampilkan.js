@@ -58,3 +58,23 @@ console.log(" ");
 // !Method sort
 x.sort();
 console.log(x);
+
+console.log(" ");
+console.log(" ");
+console.log(" ");
+
+// !Method filter
+var cobain = x.filter(function (a) {
+  return a >= 5;
+});
+console.log(cobain);
+
+console.log(" ");
+console.log(" ");
+console.log(" ");
+
+// !Method find
+var coba = x.find(function(b) {
+  return b > 5;
+});
+console.log(coba);
