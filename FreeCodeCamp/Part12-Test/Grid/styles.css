@@ -310,7 +310,9 @@ footer .dua {
     font-size: 25px;
     margin: 20px 80px 20px 0;
   }
+}
 
+@media screen and(min-width: 1068px) {
   footer {
     padding-top: 20px;
     line-height: 70px;
