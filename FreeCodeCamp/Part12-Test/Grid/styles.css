@@ -70,7 +70,7 @@ main {
 #about .foto {
   height: 300px;
   width: 250px;
-  margin-top: 65px;
+  margin-top: 8vh;
   background-position: center;
   background-image: url(./Gambar/1.jpg);
   background-repeat: no-repeat;
