@@ -1,0 +1,206 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  display: grid;
+  grid-template-areas:
+    "header header header"
+    "sidebar gambar gambar"
+    "sidebar main main"
+    "hero main main"
+    "footer footer footer";
+  gap: 20px;
+  background-color: #ddd;
+}
+
+nav {
+  background-color: white;
+  grid-area: header;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  z-index: 10;
+  border-bottom: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav p,
+nav > input,
+nav > ul {
+  margin: auto;
+}
+
+nav > p {
+  font-size: 1.4em;
+  font-weight: 600;
+}
+
+nav > input {
+  height: 30px;
+  width: 400px;
+  background-color: #ddd;
+  border: none;
+  border-radius: 5px;
+  padding-left: 10px;
+}
+
+nav > ul {
+}
+
+nav > ul > li {
+  display: inline-block;
+  padding: 0 5px;
+}
+
+nav > ul > li > a {
+  text-decoration: none;
+  font-size: 1.1em;
+  font-weight: 550;
+  color: black;
+  opacity: 0.5;
+}
+
+nav > ul > li > a:hover {
+  opacity: 1;
+}
+
+.sidebar {
+  background-color: white;
+  grid-area: sidebar;
+  margin: 40px 0 0 60px;
+  border-radius: 20px;
+  text-align: center;
+  padding: 15px;
+}
+
+.foto {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+}
+
+.foto img {
+  height: 100%;
+  width: 100%;
+  border-radius: 50%;
+}
+
+.foto img:hover {
+  transform: scale(1.07);
+  transition: 0.7s;
+}
+
+.sidebar p {
+  text-align: justify;
+  font-size: 0.9em;
+  text-indent: 10%;
+}
+
+.hero {
+  background-color: white;
+  grid-area: hero;
+  margin: 0 0 0 60px;
+  height: 200px;
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.hero img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.hero img:hover {
+  transform: scale(1.02);
+  transition: 0.7s;
+}
+
+.gambar {
+  background-color: white;
+  grid-area: gambar;
+  margin: 40px 60px 0 0;
+  border-radius: 20px;
+  border: 10px solid white;
+  list-style: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 0.75fr));
+  gap: 10px;
+}
+
+.gambar li img {
+  display: block;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.gambar li img:hover {
+  transform: scale(1.1);
+  transition: 0.7s;
+}
+
+main {
+  background-color: white;
+  grid-area: main;
+  margin: 0 60px 0 0;
+  border-radius: 20px;
+  padding: 5px 10px;
+  text-align: justify;
+}
+
+footer {
+  background-color: white;
+  grid-area: footer;
+  border-bottom: 1px solid #ddd;
+  text-align: center;
+}
+
+footer span {
+  font-size: 1.1em;
+  font-weight: 550;
+  color: black;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 960px) {
+  .container {
+    grid-template-areas:
+      "header header header"
+      "sidebar sidebar sidebar"
+      "hero hero hero"
+      "gambar gambar gambar"
+      "main main main"
+      "footer footer footer";
+  }
+
+  .sidebar,
+  .hero,
+  .gambar,
+  main {
+    margin: 5px 20px;
+  }
+
+  nav {
+    height: 70px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  nav > p {
+    margin-left: 30px;
+  }
+
+  nav > input {
+    margin-right: 30px;
+    width: 290px;
+  }
+
+  .sidebar {
+    margin-top: 70px;
+  }
+}
