@@ -18,11 +18,12 @@ body {
     #f24c27
   );
   height: 100vh;
-  /* animation: 10s berubah ease infinite alternate; */
+  animation: 10s berubah ease infinite alternate;
 }
 
 .container {
   width: 400px;
+  height: 380px;
   margin: 100px auto 160px;
   box-sizing: border-box;
   border: 4px solid #222;
@@ -74,7 +75,7 @@ button {
 
 .footer {
   text-align: center;
-  margin-top: 40px;
+  margin-top: 60px;
   font-size: 16px;
 }
 
