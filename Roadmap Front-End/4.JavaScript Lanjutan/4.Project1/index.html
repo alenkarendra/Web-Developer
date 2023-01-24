@@ -6,10 +6,36 @@
     <style>
         body {
             text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
         }
 
         .birumuda {
             background-color: lightblue;
+        }
+
+        .kotak {
+            width: 70px;
+            height: 70px;
+            margin: 10px auto;
+            border-radius: 50%;
+        }
+
+        .merah {
+            background-color: red;
+        }
+
+        .hijau {
+            background-color: green;
+        }
+
+        .biru {
+            background-color: blue;
+        }
+
+        .persegiPanjang {
+            background-color: white;
+            width: 150px;
+            margin: 0 auto;
         }
     </style>
 </head>
@@ -18,7 +44,24 @@
     <h1>Bermain dengan Warna</h1>
     <button type="button" id="tUbahWarna">Ubah Warna</button>
 
+    <br><br>
+    <div class="kotak merah"></div>
+    <input type="range" name="sMerah" min="0" max="255">
 
+    <div class="kotak hijau"></div>
+    <input type="range" name="sHijau" min="0" max="255">
+
+    <div class="kotak biru"></div>
+    <input type="range" name="sBiru" min="0" max="255">
+
+
+    <br><br>
+    <button type="button" id="hasilWarna">Nilai RGB</button>
+
+    <br>
+    <div class="persegiPanjang">
+        <h5>rgb( <span id="red">R</span>, <span id="green">G</span>, <span id="blue">B</span>)</h5>
+    </div>
     <script src="script.js"></script>
 </body>
 
