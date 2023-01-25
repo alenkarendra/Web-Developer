@@ -18,6 +18,7 @@
             height: 70px;
             margin: 10px auto;
             border-radius: 50%;
+            border: 1px solid black;
         }
 
         .merah {
@@ -36,6 +37,8 @@
             background-color: white;
             width: 150px;
             margin: 0 auto;
+            border: 1px solid black;
+
         }
     </style>
 </head>
@@ -46,17 +49,13 @@
 
     <br><br>
     <div class="kotak merah"></div>
-    <input type="range" name="sMerah" min="0" max="255">
+    <input type="range" name="sMerah" value="255" min="0" max="255">
 
     <div class="kotak hijau"></div>
-    <input type="range" name="sHijau" min="0" max="255">
+    <input type="range" name="sHijau" value="255" min="0" max="255">
 
     <div class="kotak biru"></div>
-    <input type="range" name="sBiru" min="0" max="255">
-
-
-    <br><br>
-    <button type="button" id="hasilWarna">Nilai RGB</button>
+    <input type="range" name="sBiru" value="255" min="0" max="255">
 
     <br>
     <div class="persegiPanjang">

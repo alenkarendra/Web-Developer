@@ -66,10 +66,7 @@ sBiru.addEventListener("input", function () {
 });
 
 //! Percobaan 5 => Menginformasikan mengenai nilai dari RGB
-const r = sMerah.value;
-const g = sHijau.value;
-const b = sBiru.value;
-const nilaiRGB = document.getElementById("hasilWarna");
+
 const hasilMerah = document.getElementById("red");
 const hasilHijau = document.getElementById("green");
 const hasilBiru = document.getElementById("blue");
@@ -81,11 +78,9 @@ sMerah.addEventListener("input", function () {
 
   document.body.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
 
-  nilaiRGB.addEventListener("click", function () {
-    hasilMerah.innerHTML = r;
-    hasilHijau.innerHTML = g;
-    hasilBiru.innerHTML = b;
-  });
+  hasilMerah.innerHTML = r;
+  hasilHijau.innerHTML = g;
+  hasilBiru.innerHTML = b;
 });
 
 sHijau.addEventListener("input", function () {
@@ -95,11 +90,9 @@ sHijau.addEventListener("input", function () {
 
   document.body.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
 
-  nilaiRGB.addEventListener("click", function () {
-    hasilMerah.innerHTML = r;
-    hasilHijau.innerHTML = g;
-    hasilBiru.innerHTML = b;
-  });
+  hasilMerah.innerHTML = r;
+  hasilHijau.innerHTML = g;
+  hasilBiru.innerHTML = b;
 });
 
 sBiru.addEventListener("input", function () {
@@ -109,9 +102,7 @@ sBiru.addEventListener("input", function () {
 
   document.body.style.backgroundColor = "rgb(" + r + ", " + g + ", " + b + ")";
 
-  nilaiRGB.addEventListener("click", function () {
-    hasilMerah.innerHTML = r;
-    hasilHijau.innerHTML = g;
-    hasilBiru.innerHTML = b;
-  });
+  hasilMerah.innerHTML = r;
+  hasilHijau.innerHTML = g;
+  hasilBiru.innerHTML = b;
 });
