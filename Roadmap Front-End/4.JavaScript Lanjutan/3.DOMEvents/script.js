@@ -12,6 +12,8 @@ const p2 = document.querySelector(".p2");
 
 function ubahWarnaP2() {
   p2.style.backgroundColor = "lightblue";
+  //! optional
+  // p2.classList.toggle('birumuda');
 }
 
 p2.onclick = ubahWarnaP2;
