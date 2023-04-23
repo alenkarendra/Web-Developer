@@ -14,6 +14,8 @@ container.addEventListener("click", function (e) {
     thumbs.forEach(function (thumb) {
       if (thumb.classList.contains("active")) {
         thumb.classList.remove("active");
+      } else {
+        thumb.className = "thumb";
       }
     });
 
