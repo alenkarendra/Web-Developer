@@ -1,9 +1,9 @@
 :root {
-  --header:#f5f5f5;
-  --information:#d3d3d3;
-  --light-white:#ffffff;
+  --header: #f5f5f5;
+  --information: #d3d3d3;
+  --light-white: #ffffff;
   --button: #707070;
-  --light-grey:#f5f5f5;
+  --light-grey: #f5f5f5;
 }
 
 * {
@@ -25,7 +25,8 @@ nav {
   justify-content: space-between;
 }
 
-nav ul, nav input {
+nav ul,
+nav input {
   margin: auto;
 }
 
@@ -74,30 +75,114 @@ main {
   font-weight: lighter;
 }
 
+.information h1 {
+  font-size: 33px;
+}
+
 .checkout {
   background-color: var(--light-white);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  padding: 25px 80px 25px;
+  padding: 25px 95px 25px;
 }
 
 .left {
-  background-color: red;
+  width: 80%;
 }
 
 .dibeli {
   display: flex;
   flex-direction: row;
+  align-items: center;
+  margin: 20px 0;
 }
 
 .gambar-kecil {
-  background-color: aqua;
-  height: 50%;
-  width: 50%;
+  height: 10%;
+  width: 10%;
   background-repeat: no-repeat;
   background-position: hover;
+  border-radius: 10px;
+}
+
+.dibeli h3 {
+  width: 25%;
+  padding: 0 30px;
+  opacity: 0.75;
+  font-weight: light;
+}
+
+.dibeli p {
+  padding: 0 35px;
+  opacity: 0.7;
+  font-weight: bold;
+}
+
+.dibeli input {
+  width: 11%;
+  height: 30px;
+  border-radius: 7px;
+  padding-left: 10px;
+}
+
+.dibeli button {
+  width: 13%;
+  height: 30px;
+  border-radius: 7px;
+  cursor: pointer;
+}
+
+button:active {
+  background-color: white;
+}
+
+.right {
+  width: 17%;
+}
+
+.payment {
+  height: 40%;
+  margin-top: 35%;
+  border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 5px;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+.payment p {
+  font-size: 18px;
+}
+
+.payment p:first-child {
+  padding-bottom: 5px;
+}
+
+.payment > .atas {
+  padding: 8px 0 3px;
+}
+
+.payment > .tengah {
+  padding-bottom: 3px;
+}
+
+.payment > .bawah {
+  text-align: right;
+  padding: 30px 0 8px;
+}
+
+.payment p:last-child {
+  text-align: right;
+  padding-top: 8px;
+}
+
+.right button {
+  width: 100%;
+  height: 35px;
+  margin: 20% 0 0;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 550;
 }
 
 .recommendation {
