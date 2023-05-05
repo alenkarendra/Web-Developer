@@ -128,11 +128,14 @@ main {
   padding-left: 10px;
 }
 
+button {
+  cursor: pointer;
+}
+
 .dibeli button {
   width: 13%;
   height: 30px;
   border-radius: 7px;
-  cursor: pointer;
 }
 
 button:active {
@@ -267,5 +270,36 @@ button:active {
 /* ! Footer ! */
 footer {
   background-color: var(--light-white);
+  width: 100%;
   margin-top: 50px;
+}
+
+footer .bawah {
+  display: flex;
+  flex-direction: row;
+}
+
+.kotakan {
+  width: 20%;
+  padding: 20px 0px;
+  margin: 0 auto;
+}
+
+.kotakan h2,
+.kotakan h3,
+.kotakan p {
+  opacity: 0.6;
+  padding: 0 0 10px;
+}
+
+.kotakan button {
+  height: 30px;
+  width: 32%;
+  border-radius: 5px;
+}
+
+footer h4 {
+  text-align: center;
+  opacity: 0.6;
+  padding: 25px 0;
 }
