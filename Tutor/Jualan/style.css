@@ -144,11 +144,10 @@ button:active {
 
 .right {
   width: 17%;
+  align-self: center;
 }
 
 .payment {
-  height: 40%;
-  margin-top: 35%;
   border: 1px solid rgba(0, 0, 0, 0.6);
   border-radius: 5px;
   padding: 10px;
