@@ -124,26 +124,17 @@ class Mahasiswa {
 
   makan(porsi) {
     this.energi += porsi;
-    let hasil = console.log(
-      `Halo ${this.nama}, Selamat Makan !. Energi anda sekarang ${this.energi}.`
-    );
-    return hasil;
+    return `Halo ${this.nama}, Selamat Makan !. Energi anda sekarang ${this.energi}.`;
   }
 
   main(lama) {
     this.energi -= lama;
-    let hasil = console.log(
-      `Halo ${this.nama}, Selamat main !. Energi anda sekarang ${this.energi}.`
-    );
-    return hasil;
+    return `Halo ${this.nama}, Selamat main !. Energi anda sekarang ${this.energi}.`;
   }
 
   tidur(jam) {
     this.energi += jam * 2;
-    let hasil = console.log(
-      `Halo ${this.nama}, Selamat tidur !. Energi anda sekarang ${this.energi}.`
-    );
-    return hasil;
+    return `Halo ${this.nama}, Selamat tidur !. Energi anda sekarang ${this.energi}.`;
   }
 }
 
