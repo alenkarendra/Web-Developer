@@ -138,6 +138,11 @@ button {
   border-radius: 7px;
 }
 
+button a {
+  text-decoration: none;
+  color: inherit;
+}
+
 button:active {
   background-color: white;
 }
