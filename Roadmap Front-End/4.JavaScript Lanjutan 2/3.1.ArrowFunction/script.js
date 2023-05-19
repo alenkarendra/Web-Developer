@@ -1,6 +1,6 @@
 //! Function Declaration !//
 function cobaan(siapa) {
-  alert(`Halo, ${siapa}`);
+  console.log(`Halo, ${siapa}`);
 }
 
 cobaan("kuda");

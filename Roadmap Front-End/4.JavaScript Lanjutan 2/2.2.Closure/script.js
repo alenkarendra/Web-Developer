@@ -10,7 +10,7 @@ init();
 // ! Contoh Penggunaan
 
 function ucapanSalam(waktu) {
-  return function (nama) {
+  return (nama) => {
     console.log(
       `Halo ${nama}, Selamat ${waktu}, semoga hari-mu menyenangkan !`
     );
