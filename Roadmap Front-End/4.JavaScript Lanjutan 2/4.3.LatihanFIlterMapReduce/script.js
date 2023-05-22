@@ -32,3 +32,8 @@ pJumlah.innerHTML = jmlVideo + " video.";
 
 const pDurasi = document.querySelector(".total-durasi");
 pDurasi.innerHTML = `${jam} jam, ${menit} menit, ${detik} detik.`;
+
+// Bikin untuk memperlihatkan seluruh nilai dari yg bukan js lanjutan
+const bukanJs = videos.length - jmlVideo;
+
+console.log(bukanJs);
