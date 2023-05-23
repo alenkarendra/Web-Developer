@@ -12,7 +12,6 @@ const el = `<div class="mhs">
 <span class="nim">${mhs.NIM}</span>
 </div>`;
 
-document.body.innerHTML = el;
 
 //! Looping
 
@@ -35,15 +34,14 @@ const al = `<div class="mhs">
 ${mhs1
   .map(
     (x) =>
-      `<ul>
+      `<ol>
       <li>${x.nama}</li>
       <li>${x.email}</li>
-    </ul>`
+    </ol>`
   )
   .join("")}
 </div>`;
 
-document.body.innerHTML = al;
 
 //! kondisional
 const lagu = [
@@ -64,13 +62,12 @@ ${lagu
     (y) =>
       `<ul>
     <li>${y.judul}</li>
-    <li>${y.penyanyi} ${y.feat ? `, (${y.feat})` : ""}</li>
+    <li>${y.penyanyi} ${y.feat ? `, Featuring (${y.feat})` : ""}</li>
 </ul>`
   )
   .join("")}
 </div>`;
 
-document.body.innerHTML = ul;
 
 //! Nested
 
@@ -99,4 +96,7 @@ const ol = `<div class="again">
     ${printMatkul(lagi.mataKuliah)}
 </div>`;
 
+// document.body.innerHTML = el;
+// document.body.innerHTML = al;
+// document.body.innerHTML = ul;
 document.body.innerHTML = ol;
