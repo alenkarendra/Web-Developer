@@ -9,9 +9,10 @@ const mhs = {
 
 const el = `<div class="mhs">
 <h2>${mhs.nama}</h2>
-<span class="nim">${mhs.NIM}</span>
+<p class="">${mhs.umur} Tahun</p>
+<p class="nim">${mhs.NIM}</p>
+<p>${mhs.email}</p>
 </div>`;
-
 
 //! Looping
 
@@ -31,17 +32,17 @@ const mhs1 = [
 ];
 
 const al = `<div class="mhs">
+<h3>Identifikasi mahasiswa</h3>
 ${mhs1
   .map(
     (x) =>
-      `<ol>
+      `<ul>
       <li>${x.nama}</li>
       <li>${x.email}</li>
-    </ol>`
+    </ul>`
   )
   .join("")}
 </div>`;
-
 
 //! kondisional
 const lagu = [
@@ -68,7 +69,6 @@ ${lagu
   .join("")}
 </div>`;
 
-
 //! Nested
 
 const lagi = {
@@ -82,21 +82,22 @@ const lagi = {
   ],
 };
 
-function printMatkul(print) {
+const matkul = (x) => {
   return `
-    <ol>
-        ${print.map((x) => `<li>${x}</li>`).join("")}
-    </ol>`;
-}
+  <ol>
+    ${x.map((y) => `<li>${y}</li>`).join("")}
+  </ol>
+  `;
+};
 
-const ol = `<div class="again">
-    <h2>${lagi.nama}</h2>
-    <span class="semester">${lagi.semester} Semester</span>
-    <h4> Mata Kuliah :</h4>
-    ${printMatkul(lagi.mataKuliah)}
-</div>`;
+const ol = `<div class="lagi"> 
+  <h3>Nama : ${lagi.nama}</h3>
+  <p>${lagi.semester}</p>
+  <p>MataKuliah</p>
+  ${matkul(lagi.mataKuliah)}
+  </div>`;
 
 // document.body.innerHTML = el;
 // document.body.innerHTML = al;
 // document.body.innerHTML = ul;
-document.body.innerHTML = ol;
+// document.body.innerHTML = ol;
