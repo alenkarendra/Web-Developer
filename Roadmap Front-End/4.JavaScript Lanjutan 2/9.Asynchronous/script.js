@@ -1,4 +1,5 @@
-// Contoh asynchronous callback
+//! Contoh asynchronous callback
+// Asynchronous ngelompatin function yg lama, biar code dijalanin sampe akhir (kaya ada 2 jalan, tapi engga)
 
 console.log("satu");
 setTimeout(() => {

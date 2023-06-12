@@ -1,0 +1,23 @@
+[
+  {
+    "nama": "Ilham Syawal Mustaqim",
+    "nim": "24040117140041",
+    "email": "ilhamsyawal87@gmail.com",
+    "jurusan": "Fisika",
+    "idDosenWali": 1
+  },
+  {
+    "nama": "Jihan Febrizki",
+    "nim": "24040117140042",
+    "email": "jihanfebrizkii@gmail.com",
+    "jurusan": "Biologi",
+    "idDosenWali": 2
+  },
+  {
+    "nama": "Shanum Ainun Azzahra",
+    "nim": "24040117140043",
+    "email": "Shanumaa@gmail.com",
+    "jurusan": "Anak",
+    "idDosenWali": 2
+  }
+]
