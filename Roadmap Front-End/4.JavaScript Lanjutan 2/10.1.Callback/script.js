@@ -47,7 +47,7 @@ const mhs = [
   },
 ];
 
-console.log("Mulai");
+console.log("Mulai 1");
 mhs.forEach((m) => {
   for (let c = 0; c < 1000000; c++) {
     let date = new Date();
@@ -87,14 +87,15 @@ function error() {
   console.log("filenya ga ada");
 }
 
-console.log("Mulai 3");
+console.log("Mulai 2");
 getDataMahasiswa("mahasiswa.json", success, error);
 console.log("Selesai");
 console.log("2------");
 console.log("-------");
 console.log("-------");
 
-//! dengan jQuery (Ajax)
+// dengan jQuery (Ajax)
+
 console.log("Mulai 3");
 $.ajax({
   url: "mahasiswa.json",
@@ -102,7 +103,7 @@ $.ajax({
     isian.forEach((x) => console.log(x.nama));
   },
   error: (e) => {
-    document.innerHTML = e;
+    console.log(e.responseText);
   },
 });
 console.log("selesai");
