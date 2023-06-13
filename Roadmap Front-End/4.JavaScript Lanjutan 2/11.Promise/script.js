@@ -21,12 +21,12 @@
 
 //! fetch menggantikan ajax versi vanilla JS
 
-// const movies = fetch("http://www.omdbapi.com/?apikey=dca61bcc&s=avengers")
-//   .then((response) => response.json())
-//   .then((response) => console.log(response));
-// console.log(`----------------`);
-// console.log(`----------------`);
-// console.log(`----------------`);
+const movies = fetch("http://www.omdbapi.com/?apikey=dca61bcc&s=avengers")
+  .then((response) => response.json())
+  .then((response) => console.log(response));
+console.log(`----------------`);
+console.log(`----------------`);
+console.log(`----------------`);
 
 //! Promise
 // Object yg merepresentasikan keberhasilan / kegagalan sebuah event yg asynchronous dimasa yg akan datang
