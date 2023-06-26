@@ -4,7 +4,7 @@
 console.log("satu");
 setTimeout(() => {
   console.log("dua");
-}, 10000);
+}, 1000);
 console.log("tiga");
 console.log("empat");
 console.log("lima");
