@@ -1,25 +1,25 @@
 //! Callback
 
 // // Synchronous function
-// function halo(nama) {
-//   alert(`Halo, ${nama}`);
-// }
+function halo(nama) {
+  alert(`Halo, ${nama}`);
+}
 
-// function pesan(callback) {
-//   const nama = prompt("Masukan Nama :");
-//   callback(nama);
-// }
+function pesan(callback) {
+  const nama = prompt("Masukan Nama :");
+  callback(nama);
+}
 
-// pesan(halo);
+pesan(halo);
 
-// // atau seperti ini
+// atau seperti ini
 
-// function tampil(name) {
-//   const isi = prompt("Masukkan nama :");
-//   name(isi);
-// }
+function tampil(name) {
+  const isi = prompt("Masukkan nama :");
+  name(isi);
+}
 
-// tampil((isi) => alert(`Halo, ${isi}`));
+tampil((isi) => alert(`Halo, ${isi}`));
 
 //! Asynchronous Function
 
