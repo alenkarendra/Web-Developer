@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Belajar react</title>
+    <script src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+</head>
+
+<body>
+    <div id="root"></div>
+</body>
+
+<script type="text/babel">
+    const app = document.getElementById("root");
+
+    //! dgn React
+    const root = ReactDOM.createRoot(app);
+
+    // Penggunaan component
+    function Header() {
+        return (
+            <>
+                <h1>Belajar React bareng WPU 🚀</h1>
+            </>
+        )
+    }
+
+    // Memasukan component ke component lain
+    function Name() {
+        return (
+            <>
+                <Header />
+                <Header />
+            </>
+        )
+    }
+    root.render(<Name />);
+</script>
+
+</html>
