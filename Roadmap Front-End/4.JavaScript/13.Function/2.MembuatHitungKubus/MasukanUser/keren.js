@@ -12,4 +12,4 @@ function volume(a, b) {
   return total;
 }
 
-alert("Hasilnya adalah : " + volume(a, b));
+alert("Volume totalnya dari 2 kubus adalah : " + volume(a, b));
