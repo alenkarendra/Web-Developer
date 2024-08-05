@@ -1,5 +1,6 @@
 .hello:link {
   color: orange;
+  text-decoration: none;
 }
 
 .hello:hover {
