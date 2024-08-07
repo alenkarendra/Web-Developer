@@ -33,4 +33,4 @@ function Mahasiswa(nama, nim, email) {
 }
 
 var mhs4 = new Mahasiswa("kanjuut", "titit", "asdmasda@gmail.com");
-var mhs5 = new Mahasiswa("Jihan", "titit2", "ilajsajsc@gmail.com");
+var mhs5 = new Mahasiswa("helo", "titit2", "ilajsajsc@gmail.com");

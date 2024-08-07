@@ -29,7 +29,7 @@ function Angkot(nama, jurusan, penumpang, kas) {
   this.penumpangTurun = function (namaPenumpang, bayar) {
     if (penumpang.length === 0) {
       alert("Angkot kosong");
-      return false;
+      return namaPenumpang;
     }
 
     for (var i = 0; i < penumpang.length; i++) {
@@ -39,7 +39,7 @@ function Angkot(nama, jurusan, penumpang, kas) {
         return this.penumpang;
       } else if (i == this.penumpang.length - 1) {
         alert(namaPenumpang + " Gada di angkot");
-        return false;
+        return namaPenumpang;
       }
     }
   };
